@@ -1,13 +1,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&physical_layout {
+#include <layouts/foostan/corne/5column.dtsi>
+
+&foostan_corne_5col_layout {
     transform = <&default_transform>;
 };
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout;
+        zmk,physical-layout = &foostan_corne_5col_layout;
     };
 
     mock_kscan: mock_kscan_0 {
