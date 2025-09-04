@@ -215,3 +215,6 @@ nice_view_spi: &spi0 {
 &xiao_i2c {
     status = "disabled";
 };
+// ################# niceview working fine END #################
+*/
+// vim: filetype=dts fdm=marker:
